@@ -1,0 +1,374 @@
+html,
+head,
+body {
+    background: #2c2e33;
+    height: 100%;
+    font-size: 100%;
+    font-size-adjust: 0.5;
+    position: relative;
+
+}
+
+@font-face {
+    font-family: avenir-bold;
+    src: url(fonts/Heavy.ttf);
+}
+
+@font-face {
+    font-family: avenir-light;
+    src: url(fonts/Light.otf);
+}
+
+@font-face {
+    font-family: avenir-medium;
+    src: url(fonts/Medium.ttf);
+}
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: dimgray;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #ac936a; 
+}
+
+.gold-text{
+    color: #ac936a;
+}
+
+
+.line1 {
+    border-left: 1px solid rgba(105, 105, 105, 0.5);
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+
+}
+
+.line2 {
+    border-left: 1px solid rgba(105, 105, 105, 0.5);
+    height: 100%;
+    z-index: 0;
+    position: fixed;
+
+}
+
+.line3 {
+    border-left: 1px solid rgba(105, 105, 105, 0.5);
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+
+}
+
+.line4 {
+    border-left: 1px solid rgba(105, 105, 105, 0.5);
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+
+}
+
+.line5 {
+    border-left: 1px solid rgba(105, 105, 105, 0.5);
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar .navbar-collapse .navbar-nav li > a {
+    position: relative;
+    color: #cfcccc;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.navbar .navbar-collapse .navbar-nav li > a:hover {
+    color: #ac936a;
+}
+
+.navbar .navbar-collapse .navbar-nav li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ac936a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar .navbar-collapse .navbar-nav li > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+    text-align: center;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#d7b96d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-toggler {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #ac936a;
+}
+
+.logo {
+    top: 0;
+    margin-bottom: 5em;
+    width: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#banner{
+    display: block;
+    width: 400%;
+}
+
+.gif {
+    top: 0px;
+    margin-bottom: 5em;
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-fluid .row .test {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.row .col-sm-2 .deltagelse {
+    font-family: 'avenir-bold', sans-serif;
+    color: #d7b96d;
+    font-size: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border: 10em;
+    width: 10em;
+    text-align: left;
+
+}
+
+p {
+    color: #cfcccc;
+}
+
+.row .col-sm-2 .deltagelse {
+    position: relative;
+    color: #cfcccc;
+    text-decoration: none;
+}
+
+.row .col-sm-2 .deltagelse :hover {
+    color: #ac936a;
+}
+
+.row .col-sm-2 .deltagelse :before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ac936a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.row .col-sm-2 .deltagelse :hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.container-fluid .row .col-md-4 .kategori1 {
+    color: #ac936a;
+    font-family: 'avenir-light', sans-serif;
+    margin-top: 3%;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.container-fluid .row .col-md-4 .design {
+    color: #cfcccc;
+    font-family: 'avenir-bold', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    padding-left: 0.2em;
+
+}
+
+.container-fluid .row .col-md-4 .gold-text{
+    color: #ac936a;
+}
+
+.container-fluid .fake a {
+    color: #cfcccc;
+}
+
+.navbar .navbar-nav li > a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav li > a:hover {
+    color: #ac936a;
+}
+
+.navbar .navbar-nav li > a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    background-color: #ac936a;
+    visibility: hidden;
+
+}
+
+
+.navbar-left {
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+    left: 1em;
+    margin: 0;
+    position: absolute;
+    top: 25vh;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.5);
+
+
+
+
+}
+
+.navbar-left .left {
+    text-align: left;
+    z-index: 2;
+    padding-top: 3em;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.sticky {
+    position: fixed;
+    top: 15vh;
+}
+
+.active {
+    overflow: visible;
+    text-align: left;
+    padding-left: 2em;
+    z-index: 2;
+    left: 1em;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.active a {
+
+    color: white;
+}
+
+.container-fluid .row .col-md-6 .hva {
+    color: #cfcccc;
+    font-family: 'avenir-light', sans-serif;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 1em;
+
+}
+
+.container-fluid .row .col-md-6 .hvordan {
+    color: #cfcccc;
+    font-family: 'avenir-light', sans-serif;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 1em;
+
+}
+
+.navbar-left .navbar-nav .left :before {
+    content: "";
+    display: block;
+    border-top: solid 3px #ac936a;
+    width: 10.5em;
+    height: 2px;
+    position: absolute;
+    top: 40%;
+    left: -12em;
+    
+
+
+}
+
+.navbar-left .navbar-nav .left span {
+    background: #0000;
+    position: relative;
+    z-index: 1;
+
+}
