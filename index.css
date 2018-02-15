@@ -311,3 +311,38 @@ a {
     position: relative;
     z-index: 1;
 }
+
+.icons{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+.fa {
+    
+    font-size: 1em;
+}
+.fa:hover {
+    color:#ac936a;
+    opacity: 0.7;
+}
+.fa-facebook {
+    position: fixed;
+    right: 2.2vw;
+    bottom:20vh;
+      color: white;
+}
+
+.fa-instagram {
+  position: fixed;
+    right: 2vw;
+    bottom:10vh;
+      color: white;
+}
+.fa-snapchat-ghost {
+ position: fixed;
+    right: 2vw;
+    bottom:15vh;
+      color: white;
+}
+
