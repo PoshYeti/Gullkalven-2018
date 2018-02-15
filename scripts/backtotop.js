@@ -1,11 +1,10 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        console.log("hei"); 
-        document.getElementById("myBtn").style.display = "block";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { 
+        document.getElementById("top-btn").style.display = "block";
     } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("top-btn").style.display = "none";
     }
 }
 
