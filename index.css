@@ -285,21 +285,7 @@ a {
 
 }
 
-<<<<<<< HEAD
-
-.container-fluid .row .col-md-6 .hva {
-    color: #cfcccc;
-    font-family: 'avenir-light', sans-serif;
-    text-align: left;
-    font-size: 13px;
-    padding-left: 1em;
-
-}
-
-.container-fluid .row .col-md-6 .hvordan {
-=======
 .container-fluid .row .col-md-6 .normal-text {
->>>>>>> 3dee615e19670ed0cb012a81eddd8fdea3bf5314
     color: #cfcccc;
     font-family: 'avenir-light', sans-serif;
     text-align: left;
