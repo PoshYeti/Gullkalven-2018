@@ -53,6 +53,7 @@ body {
 
 .line {
     border-left: 2px solid rgba(105, 105, 105, 0.5);
+    padding: 2px;
     height: 100%;
     position: fixed;
     z-index: 0;
@@ -301,16 +302,7 @@ a {
     color: white;
 }
 
-.container-fluid .row .col-md-6 .hva {
-    color: #cfcccc;
-    font-family: 'avenir-light', sans-serif;
-    text-align: left;
-    font-size: 13px;
-    padding-left: 1em;
-
-}
-
-.container-fluid .row .col-md-6 .hvordan {
+.container-fluid .row .col-md-6 .normal-text {
     color: #cfcccc;
     font-family: 'avenir-light', sans-serif;
     text-align: left;
@@ -337,5 +329,4 @@ a {
     background: #0000;
     position: relative;
     z-index: 1;
-
 }
