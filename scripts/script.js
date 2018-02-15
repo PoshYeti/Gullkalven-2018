@@ -39,25 +39,7 @@ function onScroll(event){
             currLink.removeClass("span");
         }
     });
-}
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("menu-center");
-var topbar = document.getElementById("toprow");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
 };
-
-function sidebar(){
-    windows.scrollTo(0, 0);
-}
 
 
 
