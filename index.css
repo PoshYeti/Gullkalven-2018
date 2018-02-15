@@ -313,6 +313,42 @@ a {
     z-index: 1;
 }
 
+<<<<<<< HEAD
+.icons{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+.fa {
+    
+    font-size: 1em;
+}
+.fa:hover {
+    color:#ac936a;
+    opacity: 0.7;
+}
+.fa-facebook {
+    position: fixed;
+    right: 2.2vw;
+    bottom:20vh;
+      color: white;
+}
+
+.fa-instagram {
+  position: fixed;
+    right: 2vw;
+    bottom:10vh;
+      color: white;
+}
+.fa-snapchat-ghost {
+ position: fixed;
+    right: 2vw;
+    bottom:15vh;
+      color: white;
+}
+
+=======
 .container-fluid .row .col-md-6 .card {
     left: 2vh;
     background-color: #383a3d;
@@ -355,3 +391,4 @@ a {
 .container-fluid .row .col-md-6 button:hover, a:hover {
   opacity: 0.7;
 }
+>>>>>>> 1ee8b84f7aadaf001c02f5c57791a5e6a4a79413
