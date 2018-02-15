@@ -60,10 +60,6 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
 }
 
 .navbar .navbar-collapse .navbar-nav li > a {
@@ -269,11 +265,9 @@ p {
 
 .navbar-left .left {
     text-align: left;
-    z-index: 2;
     padding-top: 3em;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.5);
-
 
 }
 
@@ -281,28 +275,31 @@ a {
     color: rgba(255, 255, 255, 0.1);
 }
 
-.sticky {
-    position: fixed;
-    top: 15vh;
-}
-
 .active {
-    overflow: visible;
+
     text-align: left;
     padding-left: 2em;
     z-index: 2;
     left: 1em;
     color: white;
+
+}
+
+<<<<<<< HEAD
+
+.container-fluid .row .col-md-6 .hva {
+    color: #cfcccc;
+    font-family: 'avenir-light', sans-serif;
+    text-align: left;
     font-size: 13px;
-    text-decoration: none;
+    padding-left: 1em;
+
 }
 
-.active a {
-
-    color: white;
-}
-
+.container-fluid .row .col-md-6 .hvordan {
+=======
 .container-fluid .row .col-md-6 .normal-text {
+>>>>>>> 3dee615e19670ed0cb012a81eddd8fdea3bf5314
     color: #cfcccc;
     font-family: 'avenir-light', sans-serif;
     text-align: left;
@@ -320,8 +317,6 @@ a {
     position: absolute;
     top: 40%;
     left: -12em;
-    
-
 
 }
 
