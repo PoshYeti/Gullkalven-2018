@@ -50,40 +50,8 @@ body {
 }
 
 
-.line1 {
-    border-left: 1px solid rgba(105, 105, 105, 0.5);
-    height: 100%;
-    position: fixed;
-    z-index: 0;
-
-}
-
-.line2 {
-    border-left: 1px solid rgba(105, 105, 105, 0.5);
-    height: 100%;
-    z-index: 0;
-    position: fixed;
-
-}
-
-.line3 {
-    border-left: 1px solid rgba(105, 105, 105, 0.5);
-    height: 100%;
-    position: fixed;
-    z-index: 0;
-
-}
-
-.line4 {
-    border-left: 1px solid rgba(105, 105, 105, 0.5);
-    height: 100%;
-    position: fixed;
-    z-index: 0;
-
-}
-
-.line5 {
-    border-left: 1px solid rgba(105, 105, 105, 0.5);
+.line {
+    border-left: 2px solid rgba(105, 105, 105, 0.5);
     height: 100%;
     position: fixed;
     z-index: 0;
