@@ -506,7 +506,14 @@ a {
      color: #ac936a;
      font-family: 'avenir-light', sans-serif;
      text-align: left;
-     font-size: 18px;
+     font-size: 20px;
+ }
+
+.container-fluid .row .col-md-6 .contact-small {
+     color: white;
+     font-family: 'avenir-light', sans-serif;
+     text-align: left;
+     font-size: 16px;
  }
  
  .container-fluid .row .col-md-6 .h1{

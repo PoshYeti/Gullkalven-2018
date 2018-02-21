@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gullkalven 2018</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Richard W. Zacho & Safet Zahirovic">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:description" content="Gullkalven - Norges største studentkonkurranse!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.gullkalven.no/index.html" />
+    <meta property="og:title" content="Gullkalven" />
+
+    <link rel="icon" href="img/logo.png">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <script src="scripts/script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+  
+
+    <body>
+        
+        <script src="scripts/script.js"></script>
+        <script src="scripts/backtotop.js"></script>
+        
+        <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
+
+        <div id="menu-center" class="navbar navbar-trans navbar-left d-none d-md-none d-lg-block" style="position: fixed;">
+            <ul class="nav navbar-nav">
+                <li class="left"><a class="active" href="#index"><span>Design</span></a></li>
+                <li class="left"><a class="active" href="#audio"><span>Audio</span></a></li>
+                <li class="left"><a class="active" href="#rom"><span>Rom</span></a></li>
+                <li class="left"><a class="active" href="#teknologi"><span>Teknologi</span></a></li>
+                <li class="left"><a class="active" href="#storytell"><span>Storytelling</span></a></li>
+                <li class="left"><a class="active" href="#kommunikasjon"><span> Markedskommunikasjon</span></a></li>
+            </ul>
+        </div>
+
+        <!--TLF-->
+        <div class="navbar navbar-center navbar-expand-lg  d-block d-sm-none d-none d-sm-block d-md-none">
+
+            <a href="#" class="navbar-brand"></a>
+            <button class="navbar-toggler navbar-center" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
+                <div>
+                    <!--placeholder to evenly space flexbox items and center links-->
+                </div>
+                <ul class="nav navbar-nav navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">DELTAGELSE</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="om.html">OM GULLKALVEN</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="premiere.html">PREMIERE</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+            <div class="container-fluid">
+
+                <div class="row fake">
+
+                    <div class="col-sm-2 d-none d-sm-none d-md-block" >
+                       
+                        <a><img id="toprow"   src="img/logo.png" border="0" alt="Link to this page" class="logo"></a>
+                
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line"></div>
+                        <div class="line d-none d-sm-block .d-md-none"></div>
+                    </div>
+
+                    <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                        <div class="line"></div>
+                        <div class="deltagelse"><a href="index.html" style="text-decoration:none; position: fixed; z-index: 2;" >DELTAGELSE</a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line"></div>
+                        <div class="deltagelse"><a href="om.html" style="text-decoration:none; position: fixed;   z-index: 2;">OM GULLKALVEN</a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line"></div>
+                        <div class="deltagelse"><a href="premiere.html" style="text-decoration:none; position: fixed;  z-index: 2;">PREMIERE</a></div>
+
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line"></div>
+                        <div class="deltagelse"><a href="#" style="text-decoration:none; position: fixed;  z-index: 2;">KONTAKT</a></div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+
+                <div class="row fake">
+
+                    <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                        <p><br><br><br></p>
+                    </div>
+
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                    </div>
+
+                    <div class="col-sm-2 d-none d-sm-none d-md-block ">
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 01</p>
+                        <p class="design">BRANDING</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br><br> Hva? <br><br> Denne kategorien er ganske åpen, men retter seg stort sett mot grafisk design og illustrasjon. Etter vår definisjon er godt design gode løsninger som kommuniserer bra samtidig som de forsterker budskapet/hensikten.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Et godt plakatdesign forsterker budskapet og skiller seg ut på plakatveggen, og et godt nettsidedesign gjør (stort sett) brukeropplevelsen enklere samtidig som det underbygger avsenderens personlighet. Design kan også være fysiske ting som et skilt, en installasjon eller en kopp, så lenge det bidrar til å kommunisere noe.
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <img src="img/test.gif" class="gif">
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+                         
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+        <div id="audio">
+
+
+            <div class="container-fluid">
+
+
+                <div class="row">
+
+                    <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                        <a href="index.html"></a>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line1"></div>
+                        <div class="line1 d-none d-sm-block .d-md-none"></div>
+                    </div>
+
+                    <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                        <div class="line2"></div>
+                        <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line3"></div>
+                        <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line4"></div>
+                        <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line5"></div>
+                        <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 02</p>
+                        <p class="design">AUDIO</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br><br> Hva? <br><br> Audio er lyd. Audio innenfor kommunikasjon er lyd som kommuniserer. Det kan være et radioprogram, en jingel, en radioreklame, et film-lyddesign, en lydinstallasjon på T-banen eller noe helt annet.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Det kan være et radioprogram, en jingel, en radioreklame, et film-lyddesign, en lydinstallasjon på T-banen eller noe helt annet.
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <img src="img/test.gif" class="gif">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="rom">
+
+            <div class="container-fluid">
+
+
+                <div class="row">
+
+                    <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                        <a href="index.html"><br><br><br><br><br><br></a>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line1"></div>
+                        <div class="line1 d-none d-sm-block .d-md-none"><br><br><br><br><br><br></div>
+                    </div>
+
+                    <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                        <div class="line2"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line3"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line4"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line5"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 03</p>
+                        <p class="design">ROM</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br><br> Hva? <br><br>Rom er rom, og alt det som er inni og utenfor et rom. Denne kategorien tar for seg arkitektur, retail design og interiørdesign. Den tar altså også for seg konseptdesign i interiør og eksteriør, fysiske installasjoner og møbeldesign.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Rom er rom, og alt det som er inni og utenfor et rom. Denne kategorien tar for seg arkitektur, retail design og interiørdesign. Den tar altså også for seg konseptdesign i interiør og eksteriør, fysiske installasjoner og møbeldesign.s
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <img src="img/test.gif" class="gif">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="teknologi">
+            <div class="container-fluid">
+
+
+                <div class="row">
+
+                    <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                        <a href="index.html"><br><br><br><br><br><br><br></a>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line1"></div>
+                        <div class="line1 d-none d-sm-block .d-md-none"><br><br><br><br><br><br><br></div>
+                    </div>
+
+                    <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                        <div class="line2"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line3"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line4"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line5"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 04</p>
+                        <p class="design">TEKNOLOGI</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br><br> Hva? <br><br> Teknologi kan være et spill, en nettside, en app, en fancy filmeffekt eller noe annet du mener er teknologi.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Teknologi kan være et spill, en nettside, en app, en fancy filmeffekt eller noe annet du mener er teknologi.
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <img src="img/test.gif" class="gif">
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="storytell">
+            <div class="container-fluid">
+
+
+                <div class="row">
+
+                    <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                        <a href="index.html"><br><br><br><br><br><br></a>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line1"></div>
+                        <div class="line1 d-none d-sm-block .d-md-none"><br><br><br><br><br><br></div>
+                    </div>
+
+                    <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                        <div class="line2"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line3"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                    </div>
+
+                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line4"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                    <div class="col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="line5"></div>
+                        <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 05</p>
+                        <p class="design">STORYTELL</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+            <div id="kommunikasjon">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                            <p class="normal-text"><br><br><br><br><br> Hva? <br><br> Storytelling innenfor kommunikasjon er direkte oversatt å fortelle en historie som kommuniserer. Dette er et så effektivt virkemiddel innenfor kreativ kommunikasjon at det har fått sin egen kategori.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                            <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Storytelling handler om å treffe folks følelser via korte eller lengre historier. Det blir brukt i de aller fleste kanaler, også i fotografi og i plakatdesign.
+
+                        </div>
+
+                        <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                            <img src="img/test.gif" class="gif">
+
+                        </div>
+                        <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                        </div>
+                        <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container-fluid">
+
+
+                    <div class="row">
+
+                        <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                            <a><br><br><br><br><br><br></a>
+                        </div>
+
+                        <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                            <div class="line1"></div>
+                            <div class="line1 d-none d-sm-block .d-md-none"><br><br><br><br><br><br></div>
+                        </div>
+
+                        <div class="  col-sm-2 d-none d-sm-none d-md-block ">
+                            <div class="line2"></div>
+                            <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                        </div>
+
+                        <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                            <div class="line3"></div>
+                            <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+                        </div>
+
+                        <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                            <div class="line4"></div>
+                            <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                        </div>
+                        <div class="col-sm-2 d-none d-sm-none d-md-block">
+                            <div class="line5"></div>
+                            <div class="deltagelse"><br><br><br><br><br><br><a href="#" style="text-decoration:none;"></a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <p class="kategori1">Kategori 06</p>
+                        <p class="design">KOMMUNIKASJON</p>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-2 d-none d-md-none d-lg-block">
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br><br> Hva? <br><br> God markedskommunikasjon kommuniserer et produkt, et budskap eller en holdning til folket på en tydelig måte som når frem og fører til handling/endring av adferd. Markedskommunikasjon kan være en reklamefilm, en plakat, en caps med et budskap, en instagramkampanje, en copy-paste facebookstatus, en radioreklame, et stunt eller noe helt annet som effektivt kan bidra til å endre andres følelser og meninger.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                        <p class="normal-text"><br><br><br><br> <br>Hvordan? <br><br> Markedskommunikasjon kan være en reklamefilm, en plakat, en caps med et budskap, en instagramkampanje, en copy-paste facebookstatus, en radioreklame, et stunt eller noe helt annet som effektivt kan bidra til å endre andres følelser og meninger.
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                        <img src="img/test.gif" class="gif">
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 d-none d-sm-block">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
