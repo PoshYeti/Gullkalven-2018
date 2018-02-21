@@ -134,6 +134,20 @@ body {
     margin-right: auto;
 
 }
+
+.logo-index {
+    position: fixed;
+    left:5vw;
+    top: 10vh;
+    margin-bottom: 5em;
+    width: 13vh;
+    overflow: visible;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .log {
     margin-top: 10vh;
    display: block;
@@ -154,7 +168,7 @@ body {
 }
 .gif_1 {
 
-    width: 80%;
+    width: 70%;
     
     
 }
