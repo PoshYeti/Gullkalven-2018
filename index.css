@@ -152,6 +152,12 @@ body {
     
     
 }
+.gif_1 {
+
+    width: 80%;
+    
+    
+}
 
 .contrast {  }
 .container-fluid .row .test {
@@ -171,9 +177,124 @@ body {
     border: 10em;
     width: 10em;
     text-align: left;
+    
 
 }
 
+.row .col-sm-2 .deltagelse_active {
+    font-family: 'avenir-bold', sans-serif;
+    color: #d7b96d;
+    font-size: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border: 10em;
+    width: 10em;
+    text-align: left;
+}
+.row .col-sm-2 .deltagelse_active a{
+    font-family: 'avenir-bold', sans-serif;
+    color: #ac936a;
+    font-size: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border: 10em;
+    width: 10em;
+    text-align: left;
+}
+.row .col-sm-2 .deltagelse_active_1 {
+    font-family: 'avenir-bold', sans-serif;
+    color: #d7b96d;
+    font-size: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border: 10em;
+    width: 10em;
+    text-align: left;
+}
+.row .col-sm-2 .deltagelse_active_1 a{
+    font-family: 'avenir-bold', sans-serif;
+    color: #ac936a;
+    font-size: 12px;
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border: 10em;
+    width: 10em;
+    text-align: left;
+    
+}
+.stor{
+
+    font-family: 'avenir-bold', sans-serif;
+    color:#cfcccc;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.NOR{
+
+    font-family: 'avenir-bold', sans-serif;
+    color: #ac936a;
+    font-size: 45px;
+
+    letter-spacing: 5px;
+}
+.ST{
+
+    font-family: 'avenir-medium', sans-serif;
+    color:#cfcccc;
+    font-size: 25px;
+
+    letter-spacing: 3px;
+}
+.KO{
+    
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.move{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row .col-sm-2 .deltagelse_active_1 :before {
+    content: "";
+    position: absolute;
+    width: 5em;
+    height: 2px;
+    bottom: 0;
+    left: 1;
+    background-color: #ac936a;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.row .col-sm-2 .deltagelse_active_1 :before {
+    content: "";
+    position: absolute;
+    width: 6em;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ac936a;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+#text{
+    background-color:#2c2e33;
+}
 p {
     color: #cfcccc;
 }
@@ -410,7 +531,9 @@ a {
 .container-fluid .row .col-md-6 button:hover, a:hover {
   opacity: 0.7;
 }
-#1{}
+#one{
+    padding-top: 20vh;
+}
 #two{
    padding-top: 20vh;
 }
@@ -425,4 +548,16 @@ a {
 }
 #overskrift90{
     padding-top: 5vh;
+}
+
+.jury{
+    font-family: 'avenir-bold', sans-serif;
+    font-size: 1.1em;
+}
+.text_1{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
