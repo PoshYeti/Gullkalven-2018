@@ -476,7 +476,7 @@ a {
 
 .fa {
     
-    font-size: 1em;
+    font-size: 2em;
 }
 .fa:hover {
     color:#ac936a;
@@ -484,9 +484,16 @@ a {
 }
 .fa-facebook {
     position: fixed;
-    right: 2.2vw;
+    right: 2.3vw;
     bottom:20vh;
       color: white;
+}
+
+.fa-snapchat-ghost {
+    position: fixed;
+    right: 2vw;
+    bottom: 15vh;
+    color: white;
 }
 
 .fa-instagram {
@@ -495,12 +502,7 @@ a {
     bottom:10vh;
     color: white;
 }
-.fa-snapchat-ghost {
-    position: fixed;
-    right: 2vw;
-    bottom:15vh;
-    color: white;
-}
+
 
 .container-fluid .row .col-md-4 .small-text {
     font-family: 'avenir-light', sans-serif;
