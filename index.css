@@ -140,7 +140,10 @@ body {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 49450841b39b4eca1c2c0c9cbbd9efbe9b7cbc2e
 .logo-index {
     position: fixed;
     left:5vw;
@@ -197,8 +200,6 @@ body {
     border: 10em;
     width: 10em;
     text-align: left;
-    
-
 }
 
 .row .col-sm-2 .deltagelse_active {
