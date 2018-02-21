@@ -25,6 +25,10 @@ body {
     src: url(fonts/Medium.ttf);
 }
 
+.link{
+    z-index: 100;
+}
+
 #top-btn {
     display: none;
     position: fixed;
@@ -138,7 +142,7 @@ body {
 .logo-index {
     position: fixed;
     left:5vw;
-    top: 10vh;
+    top: 8vh;
     margin-bottom: 5em;
     width: 13vh;
     overflow: visible;
