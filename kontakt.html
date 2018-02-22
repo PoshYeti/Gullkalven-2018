@@ -32,9 +32,10 @@
     <body>
         
         <script src="scripts/backtotop.js"></script>
-
-        <button onclick="topFunction()" id="top-btn" title="Go to top"> &#8593; Top</button>
         
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">
+            <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
+        </div>
         <!--TLF-->
         <div class="navbar navbar-center navbar-expand-lg  d-block d-sm-none d-none d-sm-block d-md-none">
 
@@ -48,7 +49,8 @@
                 </div>
                 <ul class="nav navbar-nav navbar-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"></a>
+                        
+                        <a class="nav-link" href="index.html">HJEM</a>
                     </li>
 
                     <li class="nav-item">
@@ -68,6 +70,8 @@
                 </ul>
             </div>
         </div>
+        
+        <div class="background-top-bar"></div>
 
         <div class="container-fluid">
 
@@ -164,9 +168,9 @@
                 <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
 
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 d-sm-block">
                     <p class="design">TEAM</p>
-                    <p class="design gold-text">Gullkalven 2018<br><br></p>
+                    <p class="design gold-text" style="font-size: 45px;">Gullkalven 2018<br><br></p>
                 </div>
                 <div class="col-xs-12 col-md-4 col-lg-2 d-sm-block">
                     
@@ -196,7 +200,7 @@
                 
                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
                     <div class="card contact-text">
-                        <img  id="contact-img" src="img/logo.png" alt="Ida" style="width:100%">
+                        <img  id="contact-img" src="img/ida.jpg" alt="Ida" style="width:100%">
                         <p class="contact-text"><br>Ida Matthiesen</p>
                         <p class="contact-small">Info@gullkalven.no<br>Leder<br><br></p>
                     </div>
@@ -211,11 +215,11 @@
                 </div>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">    
                     <div class="card contact-text">
-                        <img  id="contact-img" src="img/niclas.jpg" alt="Niclas" style="width:100%">
-                        <p class="contact-text"><br>Niclas Staahl</p>
-                        <p class="contact-small">Krea@gullkalven.no<br>Redaktør</p>
+                        <img  id="contact-img" src="img/casper.jpg" alt="Casper" style="width:100%">
+                        <p class="contact-text"><br>Bjørn Solli</p>
+                        <p class="contact-small">Event@gullkalven.no<br>Event-sjef</p>
                     </div>
                 </div>
 
@@ -232,17 +236,9 @@
                 
                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
                     <div class="card contact-text">
-                        <img  id="contact-img" src="img/logo.png" alt="Bjørn" style="width:100%">
-                        <p class="contact-text"><br>Bjørn Solli</p>
-                        <p class="contact-small">Event@gullkalven.no<br>Event-sjef<br><br></p>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
-                    <div class="card contact-text">
-                        <img  id="contact-img" src="img/junie.jpg" alt="Junie" style="width:100%">
-                        <p class="contact-text"><br>Junie Christie</p>
-                        <p class="contact-small">Marked@gullkalven.no<br>Markedsteam</p>
+                        <img  id="contact-img" src="img/niclas.jpg" alt="Niclas" style="width:100%">
+                        <p class="contact-text"><br>Niclas Staahl</p>
+                        <p class="contact-small">Krea@gullkalven.no<br>Redaktør</p>
                     </div>
                 </div>
 
@@ -256,7 +252,15 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
                     <div class="card contact-text">
-                        <img  id="contact-img" src="img/logo.png" alt="Oliver" style="width:100%">
+                        <img  id="contact-img" src="img/junie.jpg" alt="Junie" style="width:100%">
+                        <p class="contact-text"><br>Junie Christie</p>
+                        <p class="contact-small">Marked@gullkalven.no<br>Markedsteam</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
+                    <div class="card contact-text">
+                        <img  id="contact-img" src="img/oliver.jpg" alt="Oliver" style="width:100%">
                         <p class="contact-text"><br>Oliver Bø</p>
                         <p class="contact-small">Sponsor@gullkalven.no<br>Sponsorsjef</p>
                     </div>
@@ -275,7 +279,7 @@
                 
                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-2 d-sm-block">
                     <div class="card contact-text">
-                        <img  id="contact-img" src="img/logo.png" alt="Marthe" style="width:100%">
+                        <img  id="contact-img" src="img/marte.jpg" alt="Marthe" style="width:100%">
                         <p class="contact-text"><br>Marthe Cathinka Bugge</p>
                         <p class="contact-small">Pr@gullkalven.no<br>PR-team<br><br></p>
                     </div>
