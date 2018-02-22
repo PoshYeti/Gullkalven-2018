@@ -87,7 +87,6 @@ body {
     padding: 2px;
     height: 100%;
     position: fixed;
-    z-index: 1;
 }
 
 .navbar .navbar-collapse .navbar-nav li > a {
