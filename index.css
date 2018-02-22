@@ -124,7 +124,9 @@ body {
 
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
+
 
 .navbar .navbar-collapse .navbar-nav {
     text-align: center;
@@ -136,7 +138,6 @@ body {
     margin-right: auto;
     transition: top 0.2s ease-in-out;
     top: 0;
-    z-index: 2;
 
 }
 
