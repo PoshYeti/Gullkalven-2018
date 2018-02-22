@@ -45,6 +45,24 @@ body {
     padding: 15px;
     border-radius: 4px;
 }
+#top-btn_1 {
+    padding:10em;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
+    z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0); 
+    border-color: #2c2e33;
+    color: #ac936a;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
 
 #myBtn:hover {
     background-color: #ac936a; 
@@ -588,3 +606,38 @@ a {
     text-align: center;
     
 }
+
+.gold-text_brief{
+    font-family: 'avenir-bold', sans-serif;
+    font-size:2em ;
+    left:18%;
+    top:15%;
+   position: absolute;
+    color: #ac936a;
+}
+.small-text_brief{
+    font-family: 'avenir-medium', sans-serif;
+    font-size: 1em;
+    left:68%;
+    top:16%;
+   position: absolute;
+    color: #cfcccc;
+}
+
+.gold-text_ipad{
+    font-family: 'avenir-bold', sans-serif;
+    font-size:1em ;
+    left:17%;
+    top:90%;
+   position: absolute;
+    color: #ac936a;
+}
+.small-text_ipad{
+    font-family: 'avenir-medium', sans-serif;
+    font-size: 1em;
+    left:65%;
+    top:90%;
+   position: absolute;
+    color: #cfcccc;
+}
+
