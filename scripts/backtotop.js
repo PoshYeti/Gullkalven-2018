@@ -21,12 +21,25 @@ function topFunction() {
 $(document).ready( function() {
     $("#background-top-bar").hide(); //hide your div initially
     var topOfOthDiv = $("#show").offset().top;
+    var bottomOfOthDiv= $("#endShow").pageTop + $(window).height();
     $(window).scroll(function() {
-        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-            $("#background-top-bar").show(); //reached the desired point -- show div
-        }
+        
+        
+        if($(window).scrollTop() < topOfOthDiv) {
+            $("#background-top-bar").fadeOut("fast");
+            $("#background-top-bar").hide();  
+           
+            //reached the desired point -- show div
+        } 
+
         else{
-            $("#background-top-bar").hide(); 
+             $("#background-top-bar").fadeIn("fast");//scrolled past the other div?
+            $("#background-top-bar").show();
+            
         }
     });
+   
+        
+    
 });
+

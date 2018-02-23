@@ -650,8 +650,20 @@ a {
     font-family: 'avenir-medium', sans-serif;
     font-size: 1em;
     left:65%;
-    top:90%;
    position: absolute;
     color: #cfcccc;
 }
+
+.section {
+  opacity: 0;
+  transform: translate(0, 20px); 
+  transition: all 1s;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translate(0, 0); 
+}
+
+
 
