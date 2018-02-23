@@ -9,8 +9,9 @@ function scrollFunction() {
         document.getElementById("top-btn").style.display = "none";
         
     }
+    
+    
 };
-
 
 
 function topFunction() {
