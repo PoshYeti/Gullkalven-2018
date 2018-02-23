@@ -27,5 +27,6 @@ $(window).scroll(function() {
     else {
         $('#background-top-bar').css('opacity',0+scrollTop/100);
     }
-}).scroll()
+}).scroll();
+
 
