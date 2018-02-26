@@ -49,18 +49,51 @@ body {
     position: absolute;
     bottom: 20px;
     left: 1vh;
+   z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: #2c2e33; 
+    border-color: #2c2e33;
+    color: #ac936a;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+    width:15%;
+}
+#top-btn_mobile_hjem {
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
     z-index: 99;
     font-size: 22px;
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0); 
+    background-color: #2c2e33; 
     border-color: #2c2e33;
     color: #ac936a;
     cursor: pointer;
-    padding: 15px;
+    padding: 7px;
     border-radius: 4px;
+    width:15%;
 }
 
+#top-btn_mobile_kontakt {
+    position: fixed;
+    bottom: 1vh;
+    right: 2vh;
+    z-index: 99;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: #2c2e33; 
+    border-color: #2c2e33;
+    color: #ac936a;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 1px;
+    width:10%;
+}
 
 #myBtn:hover {
     background-color: #ac936a; 
@@ -71,27 +104,13 @@ body {
 }
 
 #background-top-bar{
-    opacity: 0;
+    background: #f5b335;
+    height: 40px;
     position: fixed;
-    background-color:#2c2e33;
+    top: 0;
+    transition: top 0.2s ease-in-out;
     width: 100%;
-    height: 6%;
-    top: 0px;
-    z-index: 1;
-    color:black;
 }
-
-
-#background-top-bar_mobile{
-    opacity: 0;
-    position: fixed;
-    background-color: dimgrey;
-    width: 100%;
-    height: 6%;
-    top: 0px;
-    z-index: 1;
-}
-
 
 
 .line {
@@ -99,6 +118,7 @@ body {
     padding: 2px;
     height: 100%;
     position: fixed;
+    opacity: 0.5;
 }
 
 .navbar .navbar-collapse .navbar-nav li > a {
@@ -169,9 +189,9 @@ body {
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     left:5vw;
-    top: -2vh;
+    top: 10vh;
     margin-bottom: 5em;
     width: 5em;
     overflow: visible;
@@ -208,7 +228,7 @@ body {
 
 }
 .logo_top_bar_mobile {
-    padding-top:1vh;
+    padding-top:0.5vh;
     width: 3em;
     display: block;
     margin-left:auto;
@@ -223,7 +243,7 @@ body {
     left: 3.6vw;
     top: 10vh;
     margin-bottom: 5em;
-    width: 15vh;
+    width: 10%;
     overflow: visible;
     display: block;
     margin-left: auto;
@@ -242,7 +262,7 @@ body {
 .gif {
     top: 0px;
     margin-bottom: 5em;
-    width: 30vw;
+    width: 17vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -251,7 +271,7 @@ body {
 }
 .gif_1 {
 
-    width: 70%;
+    width: 30vw;
     
     
 }
@@ -274,7 +294,9 @@ body {
     border: 10em;
     width: 10em;
     text-align: left;
+ 
 }
+
 
 .row .col-sm-2 .deltagelse_active {
     font-family: 'avenir-bold', sans-serif;
@@ -523,8 +545,9 @@ a {
     color: #cfcccc;
     font-family: 'avenir-light', sans-serif;
     text-align: left;
-    font-size: 16px;
-    padding-left: 1em;
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-right: 1em;
 
 }
 
@@ -552,6 +575,11 @@ a {
 .icons{
     position: fixed;
     bottom:0;
+    right:0;
+}
+.icons-mobile_hjem{
+    position: absolute;
+    bottom:8vh;
     right:0;
 }
 
@@ -615,17 +643,17 @@ a {
     font-size: 18px;
  }
 
-.container-fluid .row .col-md-6 .card {
+.container-fluid .row .col-md-2 .card {
     left: 1vh;
     background-color: #2c2e33;
     border-color: #2c2e33;
 }
  
- .container-fluid .row .col-md-6 .contact-text {
+ .container-fluid .row .col-md-2 .contact-text {
      color: #ac936a;
      font-family: 'avenir-light', sans-serif;
      text-align: left;
-     font-size: 20px;
+     font-size: 16px;
  }
 
 .container-fluid .row .col-md-6 .contact-small {
@@ -685,7 +713,7 @@ a {
 }
 .underoverskriftene{
     font-family: 'avenir-bold', sans-serif;
-    font-size: 1.1em;
+    font-size: 14px;
 }
 .text_1{
      display: block;
@@ -739,5 +767,46 @@ a {
   transform: translate(0, 0); 
 }
 
+.deltagelse,
+.navigation
+{   
+    opacity: 1;
+	width: 100%;
+	height: 2.5em;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+      transition: top 0.2s ease-in-out;
+
+}
+
+.navigation
+{    
+    opacity: 0;
+	height: 3em;
+	background-color: #2c2e33;
+	z-index: 1;
+}
+.nav-top {
+    opacity: 1;
+  top: 0;
+}
+
+.nav-up {
+    
+  top: -5.5em;
+}
+
+header {
+    opacity:1;
+    z-index: 1;
+  height: 5.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
