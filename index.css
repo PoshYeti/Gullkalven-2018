@@ -1,3 +1,12 @@
+:root {
+  --color-1: forestgreen;
+  --color-2: lightskyblue;
+  --color-3: darksalmon;
+  --color-4: palegoldenrod;
+  --color-5: mediumvioletred;
+}
+
+
 html,
 html,
 head,
@@ -243,7 +252,7 @@ body {
     left: 3.6vw;
     top: 10vh;
     margin-bottom: 5em;
-    width: 10%;
+    width: 8.3%;
     overflow: visible;
     display: block;
     margin-left: auto;
@@ -262,7 +271,7 @@ body {
 .gif {
     top: 0px;
     margin-bottom: 5em;
-    width: 17vw;
+    width: 16.5vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -271,7 +280,7 @@ body {
 }
 .gif_1 {
 
-    width: 30vw;
+    width: 33.5vw;
     
     
 }
@@ -727,9 +736,9 @@ a {
     font-family: 'avenir-bold', sans-serif;
     font-size:2em ;
     left:18%;
-    top:15%;
+    top:13.5%;
    position: absolute;
-    color: #ac936a;
+    color: #cfcccc;
 }
 .small-text_brief{
     font-family: 'avenir-medium', sans-serif;
@@ -809,4 +818,35 @@ header {
   width: 100%;
 }
 
+.video{
+    width:10%;
+}
 
+.foo {
+  min-height: 33vh;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* apply colors */
+.foo-1 {
+  background-color: var(--color-1);
+}
+
+.foo-2 {
+  background-color: var(--color-2);
+}
+
+.foo-3 {
+  background-color: var(--color-3);
+}
+
+.foo-4 {
+  background-color: var(--color-4);  
+}
+
+.foo-5 {
+  background-color: var(--color-5);
+}

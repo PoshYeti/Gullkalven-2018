@@ -142,11 +142,22 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+<div class="foo  foo-5">Fifth
+</div>
         
         
 
 <!--Row 1-->
-
+<div class="foo  foo-1">First
         <div id="one" class="container-fluid">
            
             <div class="row">
@@ -166,10 +177,12 @@
                 </div>
             </div>
         </div>
+        </div>
         
 <!--Row 1 end-->
         
 <!--Row 2-->
+<div class="foo  foo-2">Second
 
         <div id="two" class="container-fluid">
             <div class="row">
@@ -190,8 +203,12 @@
                 </div>
             </div>
         </div>
+        </div>
 <!--Row 2 End-->
 <!--Row 3-->
+       
+       <div class="foo  foo-3">Third
+
         <div id="three" class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-1 col-xl-2 d-none d-sm-none d-md-block">
@@ -216,8 +233,10 @@
                 </div>
             </div>
         </div>
+        </div>
 <!--Row 3 End-->
 <!--Row 4-->
+<div class="foo  foo-4">Fourth
 
         <div id="four" class="container-fluid">
 
@@ -237,7 +256,7 @@
                     <p id="overskrift17" class="design gold-text">2007</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 d-sm-block">
-                    <img src="img/tid.gif" class="gif d-none d-sm-none d-md-block" style="width: 20em;">
+                    <img src="img/tid.gif" class="gif d-none d-sm-none d-md-block">
                     <h1><br><br></h1>
                     <p class="normal-text">I 2007 ble Gullblyantspisseren omdøpt til Gullkalven, slik vi kjenner den i dag. Gullkalven har siden 1990 utviklet seg til å bli en god arena for studenter til å dyrke sine kreative evner, og ikke minst et sted man får mulighet til å vise seg frem for sine fremtidige arbeidsgivere.
                     </p>
@@ -260,7 +279,32 @@
                 </div>
             </div>
         </div>
-       
+  </div>
+       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+        // GENERAL SETTING
+window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+sr.reveal('.foo-1', { duration: 200 });
+
+sr.reveal('.foo-2', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.foo-3', { 
+  rotate: { x: 100, y: 100, z: 0 },
+  duration: 1000
+});
+
+sr.reveal('.foo-4', { 
+  viewFactor: 0.5
+});
+
+sr.reveal('.foo-5', { 
+  duration: 200 
+});
+        </script>     
         
 <!--Row 4 End-->
 
