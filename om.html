@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:image" content="img/logo_1.png" />
     <meta property="og:description" content="Gullkalven - Norges største studentkonkurranse!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://www.gullkalven.no/index.html" />
     <meta property="og:title" content="Gullkalven" />
 
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="img/logo_1.ico">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -37,6 +37,7 @@
         
       
         
+      
         <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">
             <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
         </div>
@@ -51,7 +52,7 @@
                 <div>
                     <!--placeholder to evenly space flexbox items and center links-->
                 </div>
-                <ul class="nav navbar-nav navbar-center">
+                <ul  class="nav navbar-nav navbar-center">
                     
                     <li class="nav-item">
 
@@ -76,23 +77,10 @@
             </div>
         </div>
         
-               <div id="background-top-bar">
-            <div  class="link d-none d-sm-none d-md-block">
-                        <a href="index.html"><img src="img/logo.png" border="0" alt="Link to this page" class="logo_top_bar"></a>
-                    </div>
-        
-    
-            <div  class="link .d-none d-sm-block d-md-none">
-                        <a href="index.html"><img src="img/logo.png" border="0" alt="Link to this page" class="logo_top_bar_mobile"></a>
-                    </div>
-        </div>
-        
-   
-        
-        
- 
-        
-        <div id="show" alt="for-fade-in-and-out" style="position: absolute; top:25vh; width:100%; padding: 2em;"></div>
+<header>
+	<div class="navigation">&nbsp;</div>
+</header>
+
 
         <div class="container-fluid">
 
@@ -112,19 +100,19 @@
                             <div class="line d-none d-sm-block .d-md-none"></div>
                         </div>
 
-                        <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                        <div class="col-sm-2 d-none d-sm-none d-md-block">
                             <div class="line"></div>
-                            <div class="deltagelse"><a href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
+                            <div  class="deltagelse"><a id="bar" href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
                         </div>
 
                         <div class=" col-sm-2 d-none d-sm-none d-md-block">
                             <div class="line"></div>
-                            <div class="deltagelse"><a href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
+                            <div class="deltagelse"><a id="bar1"   href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
 
                         </div>
                         <div class="col-sm-2 d-none d-sm-none d-md-block">
                             <div class="line"></div>
-                            <div class="deltagelse"><a href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
+                            <div class="deltagelse"><a id="bar2" href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
 
                     </div>
                 </div>
@@ -154,11 +142,22 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+<div class="foo  foo-5">Fifth
+</div>
         
         
 
 <!--Row 1-->
-
+<div class="foo  foo-1">First
         <div id="one" class="container-fluid">
            
             <div class="row">
@@ -178,10 +177,12 @@
                 </div>
             </div>
         </div>
+        </div>
         
 <!--Row 1 end-->
         
 <!--Row 2-->
+<div class="foo  foo-2">Second
 
         <div id="two" class="container-fluid">
             <div class="row">
@@ -202,14 +203,19 @@
                 </div>
             </div>
         </div>
+        </div>
 <!--Row 2 End-->
 <!--Row 3-->
+       
+       <div class="foo  foo-3">Third
+
         <div id="three" class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-1 col-xl-2 d-none d-sm-none d-md-block">
-                <img id="gif3" src="img/ingenting.gif" class="gif" >
+                
                 </div>
                 <div class="col-xs-12 col-md-4 col-xl-2 d-none d-md-none d-lg-block">
+                <img id="gif3" src="img/ingenting.gif" class="gif" >
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 d-sm-block">
                     <p class="normal-text"> <b class="underoverskriftene"><br><br><br><br>Hva er årets tema?</b><br><br><br> Årets tema er “Upolert,” og med dette ønsker vi å formidle at det å være kreativ ikke handler om å være så perfekt som mulig eller at man må være Westerdals-elev for å kunne kalle seg det. Kreativitet anses som en viktig egenskap for fremtiden, og det er en ettertraktet vare for arbeidsgivere når de søker nye arbeidstakere. Det er evnen til å være nytenkende, og se muligheter der andre ser begrensninger. Å være mest mulig kreativ har nærmest utviklet seg til en konkurransesport, og det blir dermed lettere å undervurdere sine egne kreative evner fordi de ikke er «kreative nok». Mange av de beste resultatene kommer av å slippe taket og av å ikke helt vite hvor det tar deg. Det skal være rom for alles kreativitet, hvor grad av kreativitet ikke defineres av hvor gode de er i Photoshop. Gullkalven tror på mangfold, og jo mer ulike bidragene er, jo mer spennende er det.</p>
@@ -227,8 +233,10 @@
                 </div>
             </div>
         </div>
+        </div>
 <!--Row 3 End-->
 <!--Row 4-->
+<div class="foo  foo-4">Fourth
 
         <div id="four" class="container-fluid">
 
@@ -248,23 +256,56 @@
                     <p id="overskrift17" class="design gold-text">2007</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 d-sm-block">
-                    <img src="img/tid.gif" class="gif d-none d-sm-none d-md-block" style="width: 20em;">
+                    <img src="img/tid.gif" class="gif d-none d-sm-none d-md-block">
                     <h1><br><br></h1>
                     <p class="normal-text">I 2007 ble Gullblyantspisseren omdøpt til Gullkalven, slik vi kjenner den i dag. Gullkalven har siden 1990 utviklet seg til å bli en god arena for studenter til å dyrke sine kreative evner, og ikke minst et sted man får mulighet til å vise seg frem for sine fremtidige arbeidsgivere.
                     </p>
                     <h1><br><br></h1>
+                    <button onclick="topFunction()" id="top-btn_mobile" class=".d-none d-sm-block d-md-none" title="Go to top">&#8593;</button>
+                    
+                    <div class="icons-mobile_1 .d-none d-sm-block d-md-none" style="text-decoration: none;">
+                            <a id="icon1" href="https://www.facebook.com/Gullkalven/" class="fa fa-facebook" style="text-decoration: none;"></a>
+                            <a id="icon2" href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
+                            <a id="icon3" href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
+                    </div>
                     
                 </div>
                 <div class="col-sm-2 d-none d-sm-none d-md-block">
-                     <div class="icons" style="text-decoration: none;">
-                            <a href="https://www.facebook.com/Gullkalven/" class="fa fa-facebook" style="text-decoration: none;"></a>
-                            <a href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
-                            <a href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
+                     <div id="icons" class="icons" style="text-decoration: none;">
+                            <a target="_blank"  href="https://www.facebook.com/Gullkalven/" class="fa fa-facebook" style="text-decoration: none;"></a>
+                            <a target="_blank"  href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
+                            <a target="_blank"  href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
                     </div>
                 </div>
             </div>
         </div>
-       
+  </div>
+       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+        // GENERAL SETTING
+window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+sr.reveal('.foo-1', { duration: 200 });
+
+sr.reveal('.foo-2', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.foo-3', { 
+  rotate: { x: 100, y: 100, z: 0 },
+  duration: 1000
+});
+
+sr.reveal('.foo-4', { 
+  viewFactor: 0.5
+});
+
+sr.reveal('.foo-5', { 
+  duration: 200 
+});
+        </script>     
+        
 <!--Row 4 End-->
 
     </body>
