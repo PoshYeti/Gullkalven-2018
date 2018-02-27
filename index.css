@@ -1,10 +1,4 @@
-:root {
-  --color-1: forestgreen;
-  --color-2: lightskyblue;
-  --color-3: darksalmon;
-  --color-4: palegoldenrod;
-  --color-5: mediumvioletred;
-}
+
 
 
 html,
@@ -36,6 +30,7 @@ body {
 
 .link{
     z-index: 100;
+    position: fixed;
 }
 
 #top-btn {
@@ -733,16 +728,16 @@ a {
 }
 
 .gold-text_brief{
-    font-family: 'avenir-bold', sans-serif;
-    font-size:2em ;
+    font-family: 'avenir-medium', sans-serif;
+    font-size: 0.9em;
     left:18%;
-    top:13.5%;
+    top:16%;
    position: absolute;
     color: #cfcccc;
 }
 .small-text_brief{
     font-family: 'avenir-medium', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     left:68%;
     top:16%;
    position: absolute;
