@@ -28,6 +28,10 @@
     <script src="script.js"></script>
 
     <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    
+    
 </head>
     <body>
 
@@ -143,21 +147,8 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-<div class="foo  foo-5">Fifth
-</div>
-        
-        
-
 <!--Row 1-->
-<div class="foo  foo-1">First
+<div data-aos="fade">
         <div id="one" class="container-fluid">
            
             <div class="row">
@@ -182,8 +173,7 @@
 <!--Row 1 end-->
         
 <!--Row 2-->
-<div class="foo  foo-2">Second
-
+<div data-aos="fade">
         <div id="two" class="container-fluid">
             <div class="row">
                 <div class="col-xs-12  d-none d-md-none d-lg-block">
@@ -207,7 +197,7 @@
 <!--Row 2 End-->
 <!--Row 3-->
        
-       <div class="foo  foo-3">Third
+       <div data-aos="fade">
 
         <div id="three" class="container-fluid">
             <div class="row">
@@ -236,7 +226,7 @@
         </div>
 <!--Row 3 End-->
 <!--Row 4-->
-<div class="foo  foo-4">Fourth
+<div data-aos="fade">
 
         <div id="four" class="container-fluid">
 
@@ -280,32 +270,10 @@
             </div>
         </div>
   </div>
-       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
-        // GENERAL SETTING
-window.sr = ScrollReveal({ reset: true });
-
-// Custom Settings
-sr.reveal('.foo-1', { duration: 200 });
-
-sr.reveal('.foo-2', { 
-  origin: 'right', 
-  duration: 2000 
-});
-
-sr.reveal('.foo-3', { 
-  rotate: { x: 100, y: 100, z: 0 },
-  duration: 1000
-});
-
-sr.reveal('.foo-4', { 
-  viewFactor: 0.5
-});
-
-sr.reveal('.foo-5', { 
-  duration: 200 
-});
-        </script>     
-        
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <script>
+    AOS.init();
+  </script>
 <!--Row 4 End-->
 
     </body>
