@@ -209,7 +209,7 @@ body {
 .logo_brief {
     position: absolute;
     left:5vw;
-    top: 10vh;
+    top: 9.90vh;
     margin-bottom: 5em;
     width: 5em;
     overflow: visible;
@@ -244,10 +244,10 @@ body {
 
 .logo-index {
     position: fixed;
-    left: 3.6vw;
+    left: 3.75vw;
     top: 10vh;
     margin-bottom: 5em;
-    width: 8.3%;
+    width: 7.5%;
     overflow: visible;
     display: block;
     margin-left: auto;
@@ -822,7 +822,6 @@ header {
   margin-bottom: 10px;
   padding: 10px;
   color: white;
-  text-transform: uppercase;
 }
 
 /* apply colors */
