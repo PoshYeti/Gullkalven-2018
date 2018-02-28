@@ -872,18 +872,33 @@ header {
 }
 
 .easteregg{
+    position: relative;
     opacity: 0;
     font-family: 'avenir-light', sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     padding-left: 0.5em;
     padding-right: 1em;
-}
-.easteregg:hover{
-    opacity: 1;
-    color: #ac936a;
+    width: 50%;
+    top: -6em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2em;
+    
+    
+}
+.easteregg:hover{
+    position: relative;
+    opacity: 1;
+    font-family: 'avenir-light', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    width: 50%;
+    top: -6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
