@@ -273,6 +273,16 @@ body {
     
     
 }
+.gif_hva {
+    top: 0px;
+    margin-bottom: 5em;
+    width: 1vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
 .gif_1 {
 
     width: 33.5vw;
@@ -555,6 +565,36 @@ a {
 
 }
 
+.normal-text_marked {
+    color: #cfcccc;
+    font-family: 'avenir-medium', sans-serif;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    margin-left: 0.5em;
+width:110%;
+    margin-top: 2em;
+    margin-right: 0.5em ;
+    height:10vh;
+
+}
+
+
+.normal-text_hjem {
+    display: flex;
+    justify-content: space-between;
+    color: #cfcccc;
+    font-family: 'avenir-light', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    margin-bottom:-0.6em;
+    margin-top:-0.6em;
+    height: 3.5em;
+     width:20vw;
+
+}
 
 
 .navbar-left .navbar-nav .left :before {
@@ -825,23 +865,25 @@ header {
   color: white;
 }
 
-/* apply colors */
-.foo-1 {
-  background-color: var(--color-1);
+.easter{
+    background-color: red; 
+    z-index: 10; 
+    width:67vw;
 }
 
-.foo-2 {
-  background-color: var(--color-2);
+.easteregg{
+    opacity: 0;
+    font-family: 'avenir-light', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-right: 1em;
 }
-
-.foo-3 {
-  background-color: var(--color-3);
-}
-
-.foo-4 {
-  background-color: var(--color-4);  
-}
-
-.foo-5 {
-  background-color: var(--color-5);
+.easteregg:hover{
+    opacity: 1;
+    color: #ac936a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
 }

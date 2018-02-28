@@ -1,7 +1,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { 
+    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) { 
         document.getElementById("top-btn").style.display = "block";
          
         
