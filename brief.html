@@ -26,269 +26,347 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-
     <link rel="stylesheet" type="text/css" href="index.css">
 
     <script src="scripts/script.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
+    
+</head>
 
+<body>
 
-    <body>
+    <script src="scripts/backtotop.js"></script>
+        
 
-        <script src="scripts/backtotop.js"></script>
+    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">
+        <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
+    </div>
 
-        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">
-            <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
+    <!--TLF-->
+    <div class="navbar navbar-center navbar-expand-lg  d-block d-sm-none d-none d-sm-block d-md-none">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler navbar-center" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
+            <div>
+                <!--placeholder to evenly space flexbox items and center links-->
+            </div>
+            <ul class="nav navbar-nav navbar-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HJEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="brief.html">BRIEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="om.html">OM GULLKALVEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">KONTAKT</a>
+                </li>
+            </ul>
         </div>
-        
-        
+    </div>
 
+    <header>
+        <div class="navigation">&nbsp;</div>
+    </header>
 
+    <div class="container-fluid">
+        <div class="row fake">
+            <a href="index.html"></a>
+            <div class="link d-none d-sm-none d-md-block">
+                <a href="index.html"><img src="img/logo.png" border="0" alt="Link to this page" class="logo_brief"></a>
+            </div>
 
-        <!--TLF-->
-        <div class="navbar navbar-center navbar-expand-lg  d-block d-sm-none d-none d-sm-block d-md-none">
+            <div class="col-sm-2 d-none d-sm-none d-md-block"></div>
 
-            <a href="#" class="navbar-brand"></a>
-            <button class="navbar-toggler navbar-center" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
-                <div>
-                    <!--placeholder to evenly space flexbox items and center links-->
-                </div>
-                <ul class="nav navbar-nav navbar-center">
-                    <li class="nav-item">
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line"></div>
+                <div class="line d-none d-sm-block .d-md-none"></div>
+            </div>
 
-                        <a class="nav-link" href="index.html">HJEM</a>
-                    </li>
+            <div class="  col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line"></div>
+                <div class="line d-none d-sm-block .d-md-none"></div>
+            </div>
 
-                    <li class="nav-item">
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line"></div>
+                <div class="deltagelse"><a id="bar" href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
+            </div>
 
-                        <a class="nav-link" href="brief.html">BRIEF</a>
-                    </li>
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line"></div>
+                <div class="deltagelse"><a id="bar1" href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
 
-                    <li class="nav-item">
+            </div>
+            <div class="col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line"></div>
+                <div class="deltagelse"><a id="bar2" href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
 
-                        <a class="nav-link" href="om.html">OM GULLKALVEN</a>
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="kontakt.html">KONTAKT</a>
-                    </li>
-                </ul>
             </div>
         </div>
+    </div>
 
-<header>
-	<div class="navigation">&nbsp;</div>
-</header>
-       
-        <div class="container-fluid">
+    <div class="container-fluid">
 
+        <div class="row">
+
+            <div class="col-sm-2  test d-none d-sm-none d-md-block">
+            </div>
+
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line1"></div>
+                <div class="line1 d-none d-sm-block .d-md-none"></div>
+            </div>
+
+            <div class="col-sm-2 d-none d-sm-none d-md-block ">
+                <div class="line2"></div>
+                <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+            </div>
+
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line3"></div>
+                <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+            </div>
+
+            <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line4"></div>
+                <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+
+            </div>
+            <div class="col-sm-2 d-none d-sm-none d-md-block">
+                <div class="line5"></div>
+                <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
+
+            </div>
+        </div>
+    </div>
+   
+	
+
+    
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <div class="container-fluid" style="padding-top: 10vh;">
+        <div class="row">
+            <div class="col-xs-2 col-md-2 col-lg-2 d-sm-block">
+            </div>
+            <div class="col-xs-2 col-md-2 col-lg-2 d-sm-block">
+                <p class="normal-text"> <b class="underoverskriftene">Idé</b><br><br><i> Vi legger vekt på den gode idéen. <br><br> Til denne oppgaven, trenger du ikke levere et ferdig produkt eller design, men vi vil ha skissene og utkastene til idéen. Overbevis oss om hvorfor din idé er den beste.</i> <br><br><br><b class="underoverskriftene">Hva er galt med samfunnet?</b> <br><br><br>Man kan enten være en person som feier problemer under teppet, eller en som tar stilling til dem. Det er de som velger å ta tak i problemene, tenke i nye baner, se muligheter fremfor begrensninger som ender opp med å sette preg på fremtiden.
+
+                </p>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block" style="padding-top: 10vh; ">
+                <p class="normal-text">
+                    Dette kan både være omfattende, dyptliggende samfunnsproblemer eller minimale irritasjoner. Uansett hva du velger å ta stilling til, så ønsker vi at du skal dra fram tankekartet, myldre, spekulere og reflektere rundt problemet og prøve å finne en løsning. Det kan være et nytt webdesign, en installasjon, et produkt, et magasin, et stunt eller en teknologisk innovasjon. <br><br><br> Besvarelsen kan du levere i en presentasjon på 8 slides (pdf), eller en video på maks 45 sekunder. I tillegg må du levere et refleksjonsnotat hvor du besvarer følgende spørsmål:
+                </p>
+
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block" style="padding-top: 20vh;">
+              
+                <p class="normal-text">
+                    <b class="underoverskriftene"><br><br>-Hva er bakgrunnen for idéen?</b><br><br> <b class="underoverskriftene">-Hvorfor er ideen din den beste løsningen?</b> <br><br> <b class="underoverskriftene">-Hva skal du si?</b> <br><br> <b class="underoverskriftene">-Hvem skal du si det til og hvorfor?</b> <br><br> <b class="underoverskriftene">-Hvor skal du si det?</b> <br><br>
+                </p>
+
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-4 d-sm-block">
+                 <img src="pdf/1.png" style="width:80%; padding-left: 16.5vh;">
+                <div style="padding-left: 1em; padding-top: 8vh;">
+                    <a href="pdf/brief1.pdf" download style="color:#ac936a; opacity: 0.7;"><br>Last ned brief som PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--Padding between text areas-->
+   <div  class="container-fluid">
 
             <div class="row fake">
-                <a href="index.html"></a>
-                    <div class="link d-none d-sm-none d-md-block">
-                        <a href="index.html"><img src="img/logo.png" border="0" alt="Link to this page" class="logo_brief"></a>
-                    </div>
-
-                <div class="col-sm-2 d-none d-sm-none d-md-block">
-                    
-
-
-                </div>
-
-                <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line"></div>
-                    <div class="line d-none d-sm-block .d-md-none"></div>
-                </div>
-
-                <div class="  col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line"></div>
-                    <div class="line d-none d-sm-block .d-md-none"></div>
-                </div>
-
-                <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line"></div>
-                    <div class="deltagelse"><a id="bar"  href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
-                </div>
-
-                <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line"></div>
-                    <div class="deltagelse"><a id="bar1" href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
-
-                </div>
-                <div class="col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line"></div>
-                    <div class="deltagelse"><a id="bar2"  href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-
-
-        <div class="embed-responsive embed-responsive-16by9 d-none d-xl-block">
-            <p class="design gold-text_brief" stle="color:#cfcccc;">Info om brief kommer senere</p>
-            <p class="design small-text_brief">Kontakt oss på: info@gullkalven.no</p>
-            <iframe class="embed-responsive-item .d-sm-none .d-md-block" src="https://www.youtube.com/embed/huv-XZ7ugrM?ecver=1?rel=0" allowfullscreen style="position: absolute; top: 25%; left:17.9%; width:66.5%; height: 60%;"></iframe>
-           
-
-            
-
-            <div id="icons" class="icons" style="text-decoration: none;">
-                        <a target="_blank"  href="https://www.facebook.com/Gullkalven/" class="fa fa-facebook" style="text-decoration: none;"></a>
-                        <a target="_blank"  href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
-                        <a target="_blank"  href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
-                </div>
-
-        </div>
-         <div class="easteregg d-none d-xl-block"><p class="gold-text"><q><i>Du finner oss i skyggene, kamuflert med omgivelsene foran en anonym vegg, i et eller annet forfallent lagerhus. <br>
-Vi gjemmer oss ikke fra systemet.
-Vi kryper i korridorene, roper stille, hvisker høyt.<br> Ekkoet linker oss sammen.
-Vi ber ikke til gud om en bedre framtid. Vi er den. <br>
-Verden formes, formeres, skapes i våre hender.<br> 
-Klokken tikker, tannhjulene dreier, maskineriet pumper, føttene tramper og vi slår knokene mot betong i takt og venter, og så<br>
-
-Et knips.<br>
-
-                Dørene faller, veggene brytes ned, bjelkene kollapser, rommet åpner seg.</i></q></p></div>
-
-        
-
-
-
-
-        <div class="container-fluid">
-
-
-            <div class="row">
 
                 <div class="col-sm-2  test d-none d-sm-none d-md-block">
-
+                    <h1><br></h1>
                 </div>
 
-                <div class=" col-sm-2 d-none d-sm-none d-md-block">
-
-                    <div class="line1"></div>
-                    <div class="line1 d-none d-sm-block .d-md-none"></div>
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
                 </div>
 
                 <div class="col-sm-2 d-none d-sm-none d-md-block ">
-
-                    <div class="line2"></div>
-                    <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
                 </div>
 
                 <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line3"></div>
-                    <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
                 </div>
 
                 <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line4"></div>
-                    <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
-
                 </div>
                 <div class="col-sm-2 d-none d-sm-none d-md-block">
-                    <div class="line5"></div>
-                    <div class="deltagelse"><a href="#" style="text-decoration:none;"></a></div>
-
                 </div>
             </div>
         </div>
-
-        <div class="container-fluid d-lg-block d-xl-none">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 ">
-                    <div class="embed-responsive embed-responsive-16by9 d-none d-md-none d-lg-block">
-                        <p class="design gold-text_brief">Info om brief kommer senere</p>
-                        <p class="design small-text_brief">Kontakt oss på: info@gullkalven.no</p>
-                        <iframe class="embed-responsive-item .d-sm-none .d-md-block" src="https://www.youtube.com/embed/huv-XZ7ugrM?ecver=1?rel=0" allowfullscreen style="position: absolute; top: 25%; left:16%; width:70%; height: 60%;"></iframe>
-                        
-                        
-                    </div>
-                    
-                </div>
-
-            </div>
-
-        </div>
-
-            <div class="container-fluid d-none d-md-block d-lg-none">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="embed-responsive embed-responsive-16by9 d-none d-sm-none d-md-block">
-                            <p class="design gold-text_ipad">Info om brief kommer senere</p>
-                            <p class="design small-text_ipad">Kontakt oss på: info@gullkalven.no</p>
-                            <iframe class="embed-responsive-item .d-sm-none .d-md-block" src="https://www.youtube.com/embed/huv-XZ7ugrM?ecver=1?rel=0" allowfullscreen style="position: absolute; top: 25%; left:16%; width:70%; height: 60%;"></iframe>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
+    <!--Padding between text areas end-->
+    <div class="container-fluid" style="padding-top: 25vh;">
+        <div class="row">
+            <div class="col-xs-12 col-md-2 col-lg-2 d-sm-block">
             </div>
 
 
 
-            <div class="container-fluid d-none d-sm-block d-md-none">
-                <div class="row">
-
-                    <div class="col-xs-12 col-sm-12 ">
-                        <p class="design gold-text">Info om brief kommer senere</p>
-                        <p class="design small-text">Kontakt oss på: info@gullkalven.no</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-
-                            <iframe style="position: absolute;" class="embed-responsive-item" src="https://www.youtube.com/embed/huv-XZ7ugrM?ecver=1?rel=0" allowfullscreen></iframe>
-                            
-                            
-                        </div>
-                            
-
-                    </div>
-                </div>
-
-
-
-
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block">
+                <p class="normal-text"><b class="underoverskriftene"><br>Kaos</b><br><br><br> Hjernen er en innviklet og komplisert sak. Den rommer alle dine erfaringer og motstridende meninger som former deg til den du er. Et komplett kaos. Når alt og ingenting kræsjer, men samtidig eksisterer sammen. En slags oppslukende intetanende galskap.
+                </p>
             </div>
-            
-            
-            <div class="container-fluid d-block d-sm-none" >
-               
-                <div class="row">
 
-                    <div class="col-xs-12 col-sm-12 ">
-                        <p class="design gold-text">Info om brief kommer senere</p>
-                        <p class="design small-text">Kontakt oss på: info@gullkalven.no</p>
-                        <div class="  embed-responsive embed-responsive-16by9">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block" style="padding-top: 10vh;">
+                <p class="normal-text"> Forestill deg hvordan den abstrakte hjernen ser ut og visualiser den ved å legge vekt på kaos.
+                </p>
+                <p class="normal-text">
+                    <br>Lever besvarelsen med et JPG-bilde. Du kan også levere et refleksjonsnotat som juryen kan se på om det er av interesse.
+                </p>
+            </div>
 
-                            <iframe class="video embed-responsive-item" src="https://www.youtube.com/embed/huv-XZ7ugrM?ecver=1?rel=0" allowfullscreen></iframe>
-                            
-                           
-                        </div>
-                        
-                    </div>
-                    
-                </div>
+            <div class="col-xs-12 col-md-2 col-lg-2 d-sm-block" style="padding-top: 20vh;">
                 
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-4 d-sm-block">
+                 <img src="pdf/2.png" style="width:85%; padding-left: 14.5vh;">
+                <div style="padding-left: 1em; padding-top: 8vh;">
+                    <a href="pdf/brief2.pdf" download style="color:#ac936a; opacity: 0.7;"><br>Last ned brief som PDF</a>
+                </div>
+            </div>
+            </div>
+    </div>
+            <!--Padding between text areas-->
+   <div  class="container-fluid">
 
-<button onclick="topFunction()" id="top-btn_mobile" class=".d-none d-sm-block d-md-none" title="Go to top">&#8593;</button>
-                    
-                    <div class="icons-mobile_1 .d-none d-sm-block d-md-none" style="text-decoration: none;">
-                            <a id="icon1" href="https://www.facebook.com/Gullkalven/" target="_blank" class="fa fa-facebook" style="text-decoration: none;"></a>
-                            <a id="icon2"  target="_blank" href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
-                            <a id="icon3" target="_blank" href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
-                            
-                            
+            <div class="row fake">
+
+                <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                    <h1><br></h1>
+                </div>
+
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+
+                <div class="col-sm-2 d-none d-sm-none d-md-block ">
+                </div>
+
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+            </div>
+        </div>
+    <!--Padding between text areas end-->
+    
+            <div class="container-fluid" style="padding-top: 25vh;">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 col-lg-2 d-sm-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block">
+                        <p class="normal-text"><b class="underoverskriftene">Rebell</b><br><br><br> Vi har alle en kampanje som vi overhodet ikke liker. Det kan være en reklamefilm, et stunt, en plakat eller en radiosnutt. Kanskje er du uenig i budskapet, kanskje misliker du produktet, eller kanskje kampanjen rett og slett er, etter din mening, elendig produsert og provoserer deg til den grad at du nekter å ha noe med produktet å gjøre.
+                        </p>
                     </div>
 
+                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block" style="padding-top: 8vh;">
+                        <p class="normal-text">Dette er din mulighet til å lage et motsvar til denne kampanjen i form av en antikampanje-kampanje. Da kan du åpenhjertig kommunisere alt som er feil med den aktuelle kampanjen. Lag en kampanje til den samme målgruppen som den aktuelle kampanjen var rettet mot. Fortell hva som var galt med den, overbevis dem til å bli enig med deg. Ikke legg noe i mellom, vær vågal og dristig. <br><br>Presenter besvarelsen på maks 8 slides eller en video på maks 45 sek. I tillegg skal du levere et refleksjonsnotat hvor du besvarer følgende spørsmål:
+                        </p>
 
+                    </div>
+
+                    <div class="col-xs-12 col-md-2 col-lg-2  col-xl-2 d-sm-block" style="padding-top: 30vh;">
+                        <p class="normal-text">
+                            <br><br> <b class="underoverskriftene">- Hvilken reklame ønsker du å lage en anti-reklame til?(legg ved link eller bilde)</b><br><br><b class="underoverskriftene"> - Hvem er målgruppen?</b><br><br><b class="underoverskriftene"> - Hva vil du si med din reklame?</b><br><br><b class="underoverskriftene"> - Hvor skal du si det?</b><br><br>
+                        </p>
+                    </div>
+                   
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-4 d-sm-block">
+                        <img src="pdf/3.png" style="width:85%; padding-left: 15vh;">
+                        <div style="padding-left: 1em; padding-top: 8vh;">
+                            <a href="pdf/brief3.pdf" download style="color:#ac936a; opacity: 0.7;"><br>Last ned brief som PDF</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!--Padding between text areas-->
+   <div  class="container-fluid">
 
-            
-    </body>
+            <div class="row fake">
+
+                <div class="col-sm-2  test d-none d-sm-none d-md-block">
+                    <h1><br></h1>
+                </div>
+
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+
+                <div class="col-sm-2 d-none d-sm-none d-md-block ">
+                </div>
+
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
+                </div>
+            </div>
+        </div>
+    <!--Padding between text areas end-->
+                     
+            <div class="container-fluid" style="padding-top: 25vh; padding-bottom: 15vh; ">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 col-lg-2 d-sm-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block">
+                        <p class="normal-text"><b class="underoverskriftene">Hviske høyt</b><i><br><br><br>"Ytringsfrihet, informasjonsfrihet og trykkefrihet er grunnelementer i et demokrati. En fri, uavhengig presse er blant de viktigste institusjoner i demokratiske samfunn"</i></p>
+                        <p class="normal-text"><i> * Vær Varsom-Plakaten, 1.1.</i></p>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-sm-block" style="padding-top: 10vh;">
+                        <p class="normal-text"><b class="underoverskriftene">Hva hvis du befinner deg i et samfunn uten presse?</b></p>
+                        <p class="normal-text">Offentlig tilgjengelig informasjonsspredning eksisterer ikke. Den eneste måten å få informasjon på er på folkemunne. Et samfunn hvor all informasjon er basert på en evig hviskelek.</p>
+                        <p class="normal-text" style="padding-top: 5vh;">Skildre et samfunn uten presse. Du kan levere en tekst på maks 700 ord eller en lydfil på maks 3 minutter.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-2 col-lg-2 d-sm-block" style="padding-top: 20vh;">
+                        
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-4 d-sm-block">
+                        <img src="pdf/4.png" style="width:85%; padding-left: 15vh;">
+                        <div style="padding-left: 1em; padding-top: 8vh;">
+                            <a href="pdf/brief4.pdf" download style="color:#ac936a; opacity: 0.7;"><br>Last ned brief som PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!----------------------------------------------------------------------------------------------------------------->
+            <div class="col-xs-12 col-sm-4 col-md-2 d-none d-md-none d-lg-block">
+                <div class="icons" style="text-decoration: none;">
+                    <a target="_blank" href="https://www.facebook.com/Gullkalven/" class="fa fa-facebook" style="text-decoration: none;"></a>
+                    <a target="_blank" href="https://www.snapchat.com/add/gullkalvensnap" class="fa fa-snapchat-ghost" style="text-decoration: none;"></a>
+                    <a target="_blank" href="https://www.instagram.com/gullkalven/" class="fa fa-instagram" style="text-decoration: none;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
+<script>
+    
+    $(document).ready(function() {
+	$('#fullpage').fullpage();
+});
+</script>
+</body>
