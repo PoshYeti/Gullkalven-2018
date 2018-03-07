@@ -2,18 +2,22 @@
 <link rel="stylesheet" href="form.css" type="text/css">
 <div class="container">  
   <form id="contact" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
-    <h3>Send inn bidrag</h3>
-    <h4>Send inn ditt bidrag til Gullkalven!</h4>
+    <h3>Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
     <fieldset>
-      <input placeholder="Fult navn" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
+      <input placeholder="Your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
       <span class="error"><?= $name_error ?></span>
     </fieldset>
     <fieldset>
-      <input placeholder="Email adresse" type="text" name="email" value="<?= $email ?>" tabindex="2">
+      <input placeholder="Your Email Address" type="text" name="email" value="<?= $email ?>" tabindex="2">
       <span class="error"><?= $email_error ?></span>
     </fieldset>
     <fieldset>
-      <input placeholder="URL link til video" type="text" name="url" value="<?= $url ?>" tabindex="4" >
+      <input placeholder="Your Phone Number" type="text" name="phone" value="<?= $phone ?>" tabindex="3">
+      <span class="error"><?= $phone_error ?></span>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="text" name="url" value="<?= $url ?>" tabindex="4" >
       <span class="error"><?= $url_error ?></span>
     </fieldset>
     <fieldset>
