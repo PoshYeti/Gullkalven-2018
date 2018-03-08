@@ -972,4 +972,9 @@ input, textarea{
 .form-control::-moz-placeholder {  color:#2c2e33; font-family: 'avenir-medium', sans-serif; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder {  color:#2c2e33; font-family: 'avenir-medium', sans-serif; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder {  color:#2c2e33; font-family: 'avenir-medium', sans-serif; }
+
+section {
+    
+    background-color: #563d7c;
+}
  
