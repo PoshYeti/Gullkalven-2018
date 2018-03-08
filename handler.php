@@ -22,6 +22,6 @@ $validator->field('message')->maxLength(6000);
 $pp->attachFiles(['image']);
 
 
-$pp->sendEmailTo('web@gullkalven.no'); // ← Your email here
+$pp->sendEmailTo('teknisk@gullkalven.no'); // ← Your email here
 
 echo $pp->process($_POST);
