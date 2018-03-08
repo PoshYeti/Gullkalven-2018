@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<head>
+    <head>
     <title>Gullkalven 2018</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,12 +27,9 @@
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
         
+    <script src="form.js"></script>
         
-        
-        <link rel="stylesheet" href="form.css" >
-        <script src="form.js"></script>
-        
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -49,9 +46,6 @@
         <script src="scripts/backtotop.js"></script>
         <script src="scripts/removetop.js"></script>
         <script src="scripts/fixedBar.js"></script>
-        
-      
-        
       
         <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">
             <button onclick="topFunction()" id="top-btn" title="Go to top">&#8593; Top</button>
@@ -61,8 +55,8 @@
 
             <a href="#" class="navbar-brand"></a>
             <button class="navbar-toggler navbar-center" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+            <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
                 <div>
                     <!--placeholder to evenly space flexbox items and center links-->
@@ -88,6 +82,11 @@
 
                         <a class="nav-link" href="kontakt.html">KONTAKT</a>
                     </li>
+                    
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="formpage.html">INNSENDING</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -98,42 +97,38 @@
 
 
         <div class="container-fluid">
+            <div class="row fake">
 
-                <div class="row fake">
+                <div  class="col-sm-2 d-none d-sm-none d-md-block" >
+                </div>
 
-                    <div  class="col-sm-2 d-none d-sm-none d-md-block" >
-                       
-                        
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                    <div class="line"></div>
+                    <div class="line d-none d-sm-block .d-md-none"></div>
+                </div>
+
+                <div class="  col-sm-2 d-none d-sm-none d-md-block">
+                    <div class="line"></div>
+                    <div class="deltagelse"><a id="bar"  href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
                     </div>
 
-                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                        <div class="line"></div>
-                        <div class="line d-none d-sm-block .d-md-none"></div>
-                    </div>
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                    <div class="line"></div>
+                    <div class="deltagelse"><a id="bar"  href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
+                </div>
 
-                    <div class="  col-sm-2 d-none d-sm-none d-md-block">
-                        <div class="line"></div>
-                        <div class="deltagelse"><a id="bar"  href="brief.html" style="text-decoration:none; position: fixed; z-index: 2;">BRIEF</a></div>
-                        </div>
+                <div class=" col-sm-2 d-none d-sm-none d-md-block">
+                    <div class="line"></div>
+                    <div class="deltagelse"><a id="bar1"  href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
 
-                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                        <div class="line"></div>
-                        <div class="deltagelse"><a id="bar"  href="om.html" style="text-decoration:none; position: fixed; z-index: 2;">OM GULLKALVEN</a></div>
-                    </div>
+                </div>
+                <div class="col-sm-2 d-none d-sm-none d-md-block">
+                    <div class="line"></div>
+                    <div class="deltagelse"><a id="bar2"  href="formpage.html" style="text-decoration:none; position: fixed; z-index: 2;">INNSENDING</a></div>
 
-                    <div class=" col-sm-2 d-none d-sm-none d-md-block">
-                        <div class="line"></div>
-                        <div class="deltagelse"><a id="bar1"  href="kontakt.html" style="text-decoration:none; position: fixed; z-index: 2;">KONTAKT</a></div>
-
-                    </div>
-                    <div class="col-sm-2 d-none d-sm-none d-md-block">
-                        <div class="line"></div>
-                        <div class="deltagelse"><a id="bar2"  href="formpage.html" style="text-decoration:none; position: fixed; z-index: 2;">SUBMIT</a></div>
-
-                    </div>
-                
+                </div>
             </div>
-        </div
+        </div>
 <header>
 	<div class="navigation">&nbsp;</div>
 </header>
@@ -187,28 +182,28 @@
                     </div>
                </div>
                 <div class="col-xs-12 col-lg-8 col-lg-offset-2">
-                   <h1 class="gold-text" style="padding-bottom: 2vh; padding-top: 5vh;">Send oss ditt bidrag</h1>
+                   <h1 class="gold-text" style="padding-bottom: 2vh; padding-top: 1vh;">Send oss ditt bidrag</h1>
                     <form role="form" method="post" id="reused_form" enctype=&quot;multipart/form-data&quot; >
                         <div class="form-group">
-                            <label for="name" class="normal-text" style="padding-left: 0;"> Name:</label>
+                            <label for="name" class="normal-text" style="padding-left: 0;"><b style="color: red">*</b> Fullt navn:</label>
                             <input type="text" class="form-control" id="name" name="name" required maxlength="50" >
                         </div>
                         <div class="form-group">
-                            <label for="email" class="normal-text" style="padding-left: 0;"> Email:</label>
+                            <label for="email" class="normal-text" style="padding-left: 0;"><b style="color: red">*</b> Email:</label>
                             <input type="email" class="form-control" id="email" name="email" required maxlength="50" >
                         </div>
                         <div class="form-group">
-                            <label for="name" class="normal-text" style="padding-left: 0;"> Message:</label>
-                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+                            <label for="name" class="normal-text" style="padding-left: 0;"><b style="color: red">*</b> Beskjed:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="4"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="name" class="normal-text" style="padding-left: 0;"> File Upload:</label>
-                            <input type="file" class="form-control" id="image" name="image" required >
+                            <label for="name" class="normal-text" style="padding-left: 0;"> Last opp fil:</label>
+                            <input type="file" class="form-control" id="image" name="image">
                         </div>
-                        <button type="submit" class="btn btn-lg btn-success pull-center" id="btnContactUs" style="background-color: #ac936a; color:#2c2e33; font-family: 'avenir-medium', sans-serif; border: none;">Post It! &rarr;</button>
+                        <button type="submit" class="btn btn-lg btn-success pull-center" id="btnContactUs" style="background-color: #ac936a; color:#2c2e33; font-family: 'avenir-medium', sans-serif; border: none;">Send inn bidrag &rarr;</button>
                     </form>
-                    <div id="success_message" class="gold-text" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
-                    <div id="error_message" class="gold-text" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                    <div id="success_message" class="gold-text" style="width:100%; height:100%; display:none; "> <h3>Ditt bidrag er nå sendt inn til gullkalven. <br>Lykke til i konkurransen!</h3> </div>
+                    <div id="error_message" class="gold-text" style="width:100%; height:100%; display:none;"> <h3>Error</h3> Beklager, ditt bidrag kunne ikke sendes inn. Prøv på nytt senere. </div>
                 </div>
                 <div class="col-xs-2 col-lg-2 d-none d-sm-none d-md-block"></div>
             </div>

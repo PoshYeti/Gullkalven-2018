@@ -905,13 +905,12 @@ header {
 
 input[type="text"]{
     color:#2c2e33;
-
     border: 2px solid #ac936a;
     background: #ac936a;
 }
 
 input[type="email"]{
-   color:#2c2e33;
+    color:#2c2e33;
     border: 2px solid #ac936a;
     background: #ac936a;
 }
